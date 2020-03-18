@@ -93,7 +93,7 @@ body{
 .menu-principal a, .top-redes a{
   display: inline-block;
   padding: 0 10px;
-  color: #fff;
+  color: #191919;
   text-decoration: none;
   font-weight: 500;
   font-size: 0.876rem;
@@ -111,7 +111,7 @@ body{
 }
 
 .menu-principal a:hover, .top-redes a:hover{
-  color: #0089E0;
+  color: #0C0C26;
 }
 
 .fixed-header{
@@ -132,11 +132,11 @@ body{
 }
 
 .fixed-header .menu-principal a, .fixed-header .top-redes a{
-  color: #444444;
+  color: #979797;
 }
 
 .fixed-header .menu-principal a:hover, .top-redes a:hover{
-  color: #0089E0;
+  color: #0C0C26;
 }
 
 /*Mobile menu*/
@@ -161,7 +161,8 @@ body{
 .main .banner-principal .banner{
   width: 100%;
   height: 100vh;
-  background-image: url('../img/banner.jpg');
+  background-image: url('../img/bannerprincipal.jpg');
+  opacity: 0.7;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -180,7 +181,7 @@ body{
 
 .main .banner-principal .texto-banner h2{
   font-weight: 300;
-  color: #fff;
+  color: #191919;
   margin-bottom: 20px;
 }
 
@@ -188,7 +189,7 @@ body{
   font-size: 6.0625rem;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
+  color: #191919;
   margin-bottom: 30px;
 }
 
@@ -417,7 +418,7 @@ body{
 /*Sección información extra*/
 
 .main .info-extra{
-  background: #191919;
+  background: #0C0C26;
   padding: 130px 0;
 }
 
@@ -474,7 +475,7 @@ body{
   width: 50%;
   height: 300px;
   box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.5);
-  background-image: url('../img/info-foto.jpg');
+  /* background-image: url('../img/info-foto.jpg'); */
   background-position: center;
   background-size: cover;
 }
@@ -483,10 +484,10 @@ body{
 
 .main .contacto{
   padding: 190px 0;
-  /*background-image: url('../img/bg-contacto.jpg');
+  background-image: url('../img/contact.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
 }
 
 .main .contacto .contenedor-formulario{
@@ -506,7 +507,7 @@ body{
 .main .contacto .contenedor-formulario .formulario h2{
   font-size: 1.375rem;
   line-height: 24px;
-  color: #0089E0;
+  color: #0C0C26;
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -551,9 +552,9 @@ body{
 .main .contacto .contenedor-formulario .formulario form input[type="submit"]{
   width: 100%;
   border: none;
-  border: 1px solid #0089E0;
+  border: 1px solid #0C0C26;
   padding: 8px;
-  background: #0089E0;
+  background: #0C0C26;
   color: #fff;
   font-size: 0.9rem;
   font-family: 'Poppins', sans-serif;
@@ -564,13 +565,14 @@ body{
 
 .main .contacto .contenedor-formulario .formulario form input[type="submit"]:hover{
   background: #fff;
-  color: #0089E0;
+  color: #0C0C26;
 }
 
 .main .contacto .contenedor-formulario .foto{
   width: 50%;
-  background-image: url('../img/foto-contacto.jpg');
+  /* background-image: url('../img/foto-contacto.jpg'); */
   background-size: cover;
+  padding: 70px;
 }
 
 /*Validacion formulario*/
@@ -672,32 +674,33 @@ footer .footer-redes a:hover{
   }
   .menu-mobile .barra a i{
     font-size: 1.4rem;
-    color: #444444;
+    color: #191919;
   }
 
   .menu-mobile .menu-principal{
-    width: 80%;
+    width: 100%;
     display: block;
     position: fixed;
     top: 56px;
     left: -100%;
-    border-bottom: 1px solid rgba(204,204,204,0.5);
-    border-right: 1px solid rgba(204,204,204,0.5);
-    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.2);
-    background: #fff;
+    /* border-bottom: 1px solid rgba(204,204,204,0.5);
+    border-right: 1px solid rgba(204,204,204,0.5); 
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.2); */
+    background: #191919;
     text-align: center;
   }
 
   .menu-mobile .menu-principal a{
     display: block;
     padding: 10px;
-    color: #444444;
-    border-bottom: 1px solid rgba(204,204,204,0.5);
+    color: #fff;
+    /* border-bottom: 1px solid rgba(204,204,204,0.5); */
   }
 
   .menu-mobile .menu-principal a:hover{
     background: #f7f7f7;
   }
+  
   .fixed-header{
     display: none;
   }
